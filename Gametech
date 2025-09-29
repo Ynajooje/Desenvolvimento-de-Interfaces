@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="games.css">
+    <title>Game Tech</title>
+</head>
+<body>
+    <header class="site-header">
+        <a href="index.html" class="logo">GameTech</a>
+
+        <nav class="menu_links">
+            <ul>
+                <li class="nav_item"><a href="#inicio" class="nav_link">Início</a></li>
+                <li class="nav_item"><a href="#lancamentos" class="nav_link">Lançamentos</a></li>
+                <li class="nav_item"><a href="#utilidades" class="nav_link">Utilidades</a></li>
+                <li class="nav_item"><a href="#perifericos" class="nav_link">Periféricos</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-icons">
+            <a href="#" class="nav-icon" aria-label="Configurações"><i class="bi bi-gear"></i></a>
+            <a href="#" class="nav-icon" aria-label="Perfil de Usuário"><i class="bi bi-person-circle"></i></a>
+        </div>
+    </header>
+
+          <section id="inicio">
+            <h1>Game Tech</h1>
+            <p>Sua loja exclusiva de jogos, utilidades e periféricos. Acesso rápido e seguro aos lançamentos mais recentes, com a melhor seleção do mercado gamer.</p>
+        </section>
+        
+    <main class="container">
+        
+        <div class="carousel-wrapper">
+            <h2 id="lancamentos">Lançamentos de Jogos</h2>
+            <div id="carouselLancamentos" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselLancamentos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselLancamentos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselLancamentos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="ark2.webp" class="d-block w-100" alt="ARK 2"></div>
+                    <div class="carousel-item"><img src="gta.webp" class="d-block w-100" alt="GTA"></div>
+                    <div class="carousel-item"><img src="halo.webp" class="d-block w-100" alt="Halo"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselLancamentos" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselLancamentos" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
+            </div>
+        </div>
+
+        <div class="carousel-wrapper">
+            <h2 id="utilidades">Utilidades</h2>
+            <div id="carouselUtilidades" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselUtilidades" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselUtilidades" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselUtilidades" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="teclado_rosa.avif" class="d-block w-100" alt="Teclado Rosa"></div>
+                    <div class="carousel-item"><img src="fone.webp" class="d-block w-100" alt="Headset com orelhas de gato"></div>
+                    <div class="carousel-item"><img src="microfone.jpg" class="d-block w-100" alt="Microfone Rosa"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselUtilidades" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselUtilidades" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
+            </div>
+        </div>
+
+        <div class="carousel-wrapper">
+            <h2 id="perifericos">Periféricos</h2>
+            <div id="carouselPerifericos" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPerifericos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPerifericos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselPerifericos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><img src="cadeira.jpg" class="d-block w-100" alt="Cadeira Gamer Rosa"></div>
+                    <div class="carousel-item"><img src="monitor.webp" class="d-block w-100" alt="Monitor Curvo Rosa"></div>
+                    <div class="carousel-item"><img src="gabinete.webp" class="d-block w-100" alt="Gabinete de Vidro Rosa"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPerifericos" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPerifericos" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+<footer>© 2025 GameTech. Todos os direitos reservados. | Política de Privacidade | Termos de Serviço
+  <br>
+  Desenvolvido por Ana Júlia Alemar - Estudante de ADS
+</footer>
+
+</html>
+
+/* --- ESTILOS GERAIS --- */
+/* --- ESTILOS GERAIS --- */
+html {
+    background: #000;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    padding-top: 80px; 
+}
+
+h1 {
+
+    margin-top: 4rem; 
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #ffffffd8;
+    font-size: 5rem;
+    font-weight: 700; 
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+p {
+    text-align: center;
+    color: #ffffffd8; 
+    font-size: 20px;   
+    margin-bottom: 2rem; 
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #ffffffd8;
+    font-size: 30px;
+}
+
+/* --- ESTILO PARA A SEÇÃO DE INÍCIO (GAMETECH) --- */
+#inicio { 
+    min-height: calc(100vh - 80px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+#inicio h1 {
+    margin-top: 0; 
+    font-size: 5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.411);
+}
+
+#inicio p {
+    max-width: 600px;
+    font-size: 1.2rem;
+    color: #cccccc;
+    margin-bottom: 0;
+}
+/* --- HEADER SUPERIOR FIXO --- */
+.site-header {
+    background-color: #000000;
+    padding: 15px 40px;
+    border-bottom: 1px solid #5e5e5e;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* --- MENU DE LINKS (CENTRAL) --- */
+.menu_links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.menu_links .nav_link {
+    color: #acacac;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.menu_links .nav_link:hover {
+    color: #ffffff;
+}
+
+.menu_links .nav_link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #818181;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.menu_links .nav_link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* --- ÍCONES DO HEADER (DIREITA) --- */
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-icons .nav-icon {
+    font-size: 1.5rem;
+    padding: 8px;
+    display: flex;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-icons .nav-icon:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+/* LARGURA do carrosel*/
+.carousel-wrapper {
+    max-width: 3000px; 
+    margin: 40px auto; 
+}
+
+/* ALTURA do carrosel */
+.carousel-inner .carousel-item img {
+    height: 780px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+footer {
+    text-align: center;
+    font-style: italic; 
+}
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="games.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Game Tech</title>
+</head>
+<body>
+      <header class="site-header">
+        <a href="#" class="logo">GameTech</a>
+
+        <form class="search-bar">
+            <input type="search" placeholder="Buscar na GameTech...">
+            <button type="submit" aria-label="Pesquisar"><i class="bi bi-search"></i></button>
+        </form>
+
+        <nav class="header-nav">
+            <a href="#" class="nav-icon" aria-label="Configurações">
+                <i class="bi bi-gear"></i>
+            </a>
+            <a href="#" class="nav-icon" aria-label="Perfil de Usuário">
+                <i class="bi bi-person-circle"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="games.html">Home</a>
+              <a class="nav-link" href="lancamentos.html">Lançamentos</a>
+              <a class="nav-link" href="utilidades.html">Utilidades</a>
+              <a class="nav-link" href="acessorios.html">Acessórios</a>
+            </nav>
+          </nav>
+        </div>
+    </div>
+ 
+    
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="games.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Game Tech</title>
+</head>
+<body>
+      <header class="site-header">
+        <a href="#" class="logo">GameTech</a>
+
+        <form class="search-bar">
+            <input type="search" placeholder="Buscar na GameTech...">
+            <button type="submit" aria-label="Pesquisar"><i class="bi bi-search"></i></button>
+        </form>
+
+        <nav class="header-nav">
+            <a href="#" class="nav-icon" aria-label="Configurações">
+                <i class="bi bi-gear"></i>
+            </a>
+            <a href="#" class="nav-icon" aria-label="Perfil de Usuário">
+                <i class="bi bi-person-circle"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="games.html">Home</a>
+              <a class="nav-link" href="lancamentos.html">Lançamentos</a>
+              <a class="nav-link" href="utilidades.html">Utilidades</a>
+              <a class="nav-link" href="acessorios.html">Acessórios</a>
+            </nav>
+          </nav>
+        </div>
+    </div>
+    
+    
+    
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="games.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Game Tech</title>
+</head>
+<body>
+      <header class="site-header">
+        <a href="#" class="logo">GameTech</a>
+
+        <form class="search-bar">
+            <input type="search" placeholder="Buscar na GameTech...">
+            <button type="submit" aria-label="Pesquisar"><i class="bi bi-search"></i></button>
+        </form>
+
+        <nav class="header-nav">
+            <a href="#" class="nav-icon" aria-label="Configurações">
+                <i class="bi bi-gear"></i>
+            </a>
+            <a href="#" class="nav-icon" aria-label="Perfil de Usuário">
+                <i class="bi bi-person-circle"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+             <a class="nav-link" href="games.html">Home</a>
+              <a class="nav-link" href="lancamentos.html">Lançamentos</a>
+              <a class="nav-link" href="utilidades.html">Utilidades</a>
+              <a class="nav-link" href="acessorios.html">Acessórios</a>
+            </nav>
+          </nav>
+        </div>
+    </div>
+    <br>
+    <section class="carrosel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="teclado_rosa.avif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">Yunzii b75 pro </h5>
+                  <p>Teclado mecânico rosa para jogos, bluetooth/fio/sem fio 75 botões teclado rgb, junta hot-swap personalizado cremoso keeb</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="fone.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">Headset Gamer Razer Kraken Kitty V2 Pro Chroma RGB</h5>
+                  <p>Experimente a adrenalina de mergulhar na cena de uma maneira diferente! Ter fones de ouvido específicos para jogos muda completamente sua experiência em cada jogo. Com o Razer Kraken Pro V2, você não perde nenhum detalhe e ouve o áudio conforme ele foi projetado pelos criadores.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="microfone.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">Microfone Gamer Fifine A8 - USB - RGB - Rosa</h5>
+                  <p>O Microfone Gamer Fifine A6V é um microfone de alta qualidade projetado especialmente para gamers e streamers. Abaixo estão algumas características e descrições do produto: - Conexão USB: O microfone se conecta facilmente ao seu computador ou laptop através de uma porta USB, o que o torna muito prático e fácil de usar.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    
+   
+</body>
+</html>
