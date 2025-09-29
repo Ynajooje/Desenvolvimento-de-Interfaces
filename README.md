@@ -14,6 +14,8 @@ Este site reúne todas as atividades realizadas durante as aulas de Desenvolvime
 
 ## 🌟 **GameTech**
 
+[https://gametech-ana-julia.netlify.app](https://gametech-ana-julia.netlify.app)
+
 Este projeto é uma landing page de um site de jogos fictício que eu inventei para testar minhas habilidades.
 
 ---
