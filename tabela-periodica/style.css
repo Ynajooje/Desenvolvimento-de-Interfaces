@@ -1,0 +1,112 @@
+.row{
+    text-align: center;  
+    display: flex; 
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;  
+    padding: 3px 20px;
+}
+.row .col{
+    font-size: 8px;
+}
+
+/* Classes das cores */
+.blue-500{
+ background-color:   #41b4f1 !important;    
+}
+.purple-500{
+   background-color: #c741f1 !important; 
+}
+.cyan-500{
+    background-color: #41f1aa !important;
+}
+.red-400{
+    background-color:  #f1414f !important;
+}
+.yellow-300{
+    background-color:  #f1cc41!important;
+}
+.pink-300{
+    background-color: #f1418f !important;
+}
+.orange-400{
+    background-color: #f17241 !important;
+}
+
+.green-600{
+background-color:  #41f155 !important;
+}
+
+.teal-500{
+    background-color: #93f141 !important;
+}
+
+.indigo-600{
+  background-color: #7741f1 !important;
+
+}
+
+/* Container da legenda */
+.legenda {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px 20px; 
+  font-family: sans-serif;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex-direction: column
+}
+
+/* ESTILO BASE PARA O TEXTO DE CADA ITEM */
+.legenda-item {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* ESTILO BASE PARA O QUADRADO DE COR */
+.legenda-item::before {
+  content: ''; 
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+/* 3. CORES */
+.legenda-item.cor-metais-alcalinos::before {
+  background-color: #f1414f;
+}
+.legenda-item.cor-semimetais::before {
+  background-color: #c741f1;
+}
+.legenda-item.cor-actinideos::before {
+  background-color: #93f141;
+}
+.legenda-item.cor-metais-alcalinoterrosos::before {
+  background-color: #f17241;
+}
+.legenda-item.cor-ametais-reativos::before {
+  background-color: #f1418f;
+}
+.legenda-item.cor-propriedades-desconhecidas::before {
+  background-color: #41f1aa;
+}
+.legenda-item.cor-metais-de-transicao::before {
+  background-color: #f1cc41;
+}
+.legenda-item.cor-gases-nobres::before {
+  background-color: #7741f1;
+}
+.legenda-item.cor-metais-pos-transicao::before {
+  background-color: #41b4f1;
+}
+.legenda-item.cor-lantanideos::before {
+  background-color: #41f155;
+}
